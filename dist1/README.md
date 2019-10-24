@@ -1,26 +1,21 @@
-# 高仿饿了么app
+# sell
 
-## 介绍
+> sell app
 
-使用[vuejs](https://github.com/vuejs/vue)完成的仿饿了么webapp，实现了商品预览，商品详情，商家预览，添加购物等功能
+## Build Setup
 
-## 预览地址
+``` bash
+# install dependencies
+npm install
 
-+ PC端[点击预览](https://zsqosos.github.io/eapp)
-+ 移动端请扫码预览
+# serve with hot reload at localhost:8080
+npm run dev
 
-![扫一扫查看](http://i4.buimg.com/1949/7ffc239bc35492a6.png)
+# build for production with minification
+npm run build
 
-## Usage
-
-```
-$ git clone git@github.com:zsqosos/eapp.git
-$ cd eapp
-$ npm install
-$ npm run dev
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
 
-## LICENSE
-
-MIT
-
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
