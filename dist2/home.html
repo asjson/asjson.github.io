@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>首页home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.1/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="css/pwdInput.css">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边)-下放引入v3.4.1版本 -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+      body{background: #f8f8f8;}
+     .head{ background: url('./images/di2.png') no-repeat center 0;
+      width: 100%;
+      height: 340px;
+      background-size: 100% 50%;
+      -webkit-background-size: 100% 50%;
+      -o-background-size: 100% 50%;
+    }
+    .head .up{ height: 78px; line-height: 78px; color: #fff; margin-bottom: 10px; }
+    .head .up .txt{ font-size: 20px; text-align: center; }
+    .head .up .imageDiv{
+      width: 60px;
+      height: 60px;
+      margin-top: 10px;
+    }
+    .head .up .imageDiv .photo{
+      height: 60px;
+      background: url('./images/touxiang.png') no-repeat center;
+      background-size: 100%  100%;
+      border-radius: 50%;
+    }
+    .head .down{ height: 206px; background: url('./images/qianbao1.png') no-repeat center; background-size: 100% 100%; }
+    .head .down .row_1{ height: 45px; line-height: 45px; }
+    .head .down .row_1 .coin1{ padding-left: 35px;font-size: 14px;}
+    .head .down .row_1 .coin1 img{ width: 28px; height: 26px; margin-right: 14px; }
+    .head .down .row_1 .coin2{ text-align: center; }
+    .head .down .row_1 .coin2 .btn{
+      color: #8e87eb;
+      border-color:#8e87eb;
+      background: #fff;
+      margin-top: -5px;
+      outline: none;
+    }
+    .down .tcb{ margin: 60px auto; text-align: center;  font-size: 30px; color: #fff;}
+
+    .foot .nav-tabs{ width: 205px; height: 45px; margin: 0 auto; border-bottom: none;  }
+    .foot .nav-tabs .lis{ width: 50%;}
+    .foot .nav-tabs .lis a{color: #8e87eb; border:1px solid #8e87eb; }
+    .foot .nav-tabs .li1 a{
+      border-right-style: none;
+      border-top-left-radius:15px;
+      border-bottom-left-radius:15px;
+    }
+    .foot .nav-tabs .li2 a{
+      border-top-right-radius:15px;
+      border-bottom-right-radius:15px;
+      border-left-style: none;
+    }
+    .foot .nav-tabs>li>a{ border-style: none; border-radius: 0; margin-right: 0;}
+    .foot .nav-tabs>li.active>a,
+    .foot .nav-tabs>li.active>a:focus,
+    .foot .nav-tabs>li.active>a:hover{
+      outline: none;
+      background: #8e87eb;
+      color: #fff;
+    }
+    .foot .nav-tabs li a{ text-align: center; }
+    .foot .tab-content{ margin-top: 20px; }
+    .foot .tab-content .otems{
+      height: 60px;
+      line-height: 60px;
+      box-shadow: rgb(231, 231, 231) 0px 2px 2px;
+      margin-top: 13px;
+      margin-left: 13px;
+      background: rgb(255, 255, 255);
+      border-radius: 4px;
+       font-size: 18px;
+    }
+    .foot .tab-content .otems .pic img{ width: 22px; height: 22px; }
+    .foot .tab-content .otems .pic,
+    .foot .tab-content .otems .txt1{
+      float: left;
+    }
+    .foot .tab-content .otems .pic{ margin-left: 24px; }
+    .foot .tab-content .otems .txt1{ margin-left: 5px; }
+    .foot .tab-content .otems .txt2{ float: right; margin-right: 12px; }
+    .foot .tab-content>.active {
+      display: block;
+      height: 200px;
+      overflow-y: auto;
+    }
+    .foot .noData{ text-align: center; margin: 15px auto; }
+    .paybox img{ width: 86px; height: 86px; }
+    .weui-dialog__hd .weui-dialog__title{ display: none; }
+    .paybox div{ margin-bottom: 15px; }
+    #half .modal-content{ border-style: none; }
+    #show-actions .open-popup{width: 60px; height: 60px; display: block;}
+    .up .oText{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; min-width: 210px;}
+    </style>
+  </head>
+  <body>
+   <div class="head">
+    <div class="container">
+      <div class="up row">
+        <div class="avat col-xs-3 col-sm-3 col-md-3">
+          <div class="imageDiv">
+            <div class="photo" id="show-actions">
+              <a href="javascript:;" class="open-popup" data-target="#half"></a>
+            </div>
+          </div>
+        </div>
+        <div class="txt col-xs-9 col-sm-9 col-md-9">
+          <!-- class="pay" onclick="open1()" -->
+          <div class="oText">sms_2960951691355635</div>
+        </div>
+      </div>
+      <div class="down">
+        <div class="row row_1">
+           <div class="coin col-xs-6 col-sm-6 col-md-6 coin1">
+            <img src="./images/yuetubiao.png" alt="">
+              账户余额
+           </div>
+           <div class="coin col-xs-6 col-sm-6 col-md-6 coin2">
+            <a href="user.html">
+              <button type="button" class="btn btn-default">设置</button>
+            </a>
+           </div>
+        </div>
+        <div class="tcb">
+          <div>0 TCB</div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="foot">
+    <div class="container">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active lis li1"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">我的货币</a></li>
+        <li role="presentation" class="lis li2"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">我的道具</a></li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+           <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/xing.svg">
+             </div>
+             <div class="txt1">XWG</div>
+             <div class="txt2">0</div>
+           </div>
+           <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/xing.svg">
+             </div>
+             <div class="txt1">XWG</div>
+             <div class="txt2">0</div>
+           </div>
+           <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/xing.svg">
+             </div>
+             <div class="txt1">盛大游戏</div>
+             <div class="txt2">100</div>
+           </div>
+           <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/xing.svg">
+             </div>
+             <div class="txt1">腾讯手机游戏</div>
+             <div class="txt2">500</div>
+           </div>
+           <div class="noData">没有更多数据</div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+          <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/visa.svg">
+             </div>
+             <div class="txt1">XWGT</div>
+             <div class="txt2">0</div>
+           </div>
+           <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/visa.svg">
+             </div>
+             <div class="txt1">XWGT</div>
+             <div class="txt2">0</div>
+           </div>
+           <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/visa.svg">
+             </div>
+             <div class="txt1">网易公司</div>
+             <div class="txt2">220</div>
+           </div>
+           <div class="otems">
+             <div class="pic">
+               <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/visa.svg">
+             </div>
+             <div class="txt1">小米卡</div>
+             <div class="txt2">330</div>
+           </div>
+           <div class="noData">没有更多数据</div>
+        </div>
+      </div>
+
+    </div>
+   </div>
+
+   <div id="half" class="weui-popup__container popup-bottom">
+      <div class="weui-popup__overlay"></div>
+      <div class="weui-popup__modal">
+        <div class="toolbar">
+          <div class="toolbar-inner">
+            <a href="javascript:;" class="picker-button close-popup">关闭</a>
+            <p class="title">标题</p>
+          </div>
+        </div>
+        <div class="modal-content">
+          <div class="weui-cells">
+            <div class="weui-cell">
+              <div class="weui-cell__bd">
+                <p>￥100</p>
+              </div>
+            </div>
+            <div class="weui-cell">
+              <div class="weui-cell__bd">
+                <p>订单标题</p>
+              </div>
+              <div class="weui-cell__ft">说明文字</div>
+            </div>
+            <div class="weui-cell">
+              <div class="weui-cell__bd">
+                <p>订单描述</p>
+              </div>
+              <div class="weui-cell__ft">说明文字</div>
+            </div>
+            <div class="weui-cell">
+              <div class="weui-cell__bd">
+                <p>
+                  <a href="javascript:;" id="show-custom" class="weui-btn weui-btn_primary">立即付款</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<script>
+  // $.closePopup();
+  // $('half').popup();
+  $(document).on("click", "#show-custom", function() {
+    var oDiv = '<div>'+
+      '<div class="paybox">'+
+        '<div>'+'<img src="./images/pay.png">'+'</div>'+
+        '<div>'+'你尚未设置支付密码'+'</div>'+
+        '<div>'+'支付前请先设置支付密码！'+'</div>'
+      '</div>'+
+      '<div>'+'设置支付密码'+'</div>'
+    '</div>';
+    $.modal({
+      title: "Hello",
+      text: oDiv,
+      buttons: [
+        { text: "支付宝",
+          onClick: function(){
+            open1();
+          }
+        },
+        { text: "取消", className: "default"},
+      ],
+    });
+  });
+
+   </script>
+   <script src="js/pwdInput.js"></script>
+    <script>
+        function open1() {
+            isPwdInput.open(function(data) {
+                console.log(data);
+            });
+        }
+    </script>
+  </body>
+</html>

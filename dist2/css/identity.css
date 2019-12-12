@@ -1,0 +1,15 @@
+     .header{ background: #8e87eb; position: fixed; z-index: 1; width: 100%; }
+     .header .row_top{ height: 44px; line-height: 44px; color: #fff; font-size: 16px; }
+     .header .row_top .tip{ text-align: center; }
+     .header .row_top .links{ color: #fff; text-decoration: none; }
+
+     .content{ position: relative; top: 50px; }
+     .content .input3, .content .input4{ height: 34px; line-height: 34px; text-align: center;}
+     .content .wrapper{ margin: 0 auto 15px; height: 100px; width: 100%; }
+     .content .wrapper .wrapper_box{ margin: 0 auto;/*  border: 1px solid red; */ }
+     .content .wrapper .wrap1{ width: 262px; margin: 10px auto;  height: 35px; text-align: center;}
+     .content .wrapper .div1{float: left; margin-right: 10px;}
+     .content .wrapper .div2{float: left;}
+     .main {width: 100%;margin: 0 auto;display: block;}
+     .main .title1{margin:15px auto;}
+     .row1{ height: 136px;  }

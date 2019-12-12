@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>移动端</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/pwdInput.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边)-下放引入v3.4.1版本 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+      .header{ background: #8e87eb; }
+      .header .row_top{ height: 44px; line-height: 44px; color: #fff; font-size: 16px; }
+      .header .row_top .tip{ text-align: center; }
+      .header .row_top .links{ color: #fff; text-decoration: none; }
+      .content-info .list-group-item{
+        padding: 20px 15px;
+        border-style: none;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #ddd;
+      }
+      .content-info .item4 .wrap4{ height: 20px; line-height: 20px; }
+      .content-info .item4 .wrap4 .renzhen{ margin: 0 5px; }
+      .content-info .list-group-item .use{ float: right; color: #a5a4a7; }
+      .content-info .list-group-item .a_wrap{
+        display: block;
+        text-decoration: none;
+        color: #000;
+      }
+      .content-info .list-group-item .a_wrap .oDiv{ float: left; }
+    </style>
+  </head>
+  <body>
+  <div class="header">
+    <div class="container">
+      <div class="row row_top">
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <a href="user.html" class="links">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 tip">
+         账户安全
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+  <div class="content-info">
+    <ul class="list-group">
+      <li class="list-group-item item4">
+        <a href="editpassword.html" class="a_wrap wrap4">
+          <div class="oDiv">账户密码</div>
+          <div class="use use4">
+            <!-- <span class="renzhen">未认证</span> -->
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </div>
+        </a>
+      </li>
+      <li class="list-group-item item4">
+        <a href="####" class="a_wrap wrap4" onclick="open1()">
+          <div class="oDiv">支付密码</div>
+          <div class="use use4">
+            <span class="renzhen">未设置</span>
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="js/pwdInput.js"></script>
+  <script>
+    function open1() {
+      isPwdInput.open(function(data) {
+          console.log(data);
+      });
+    }
+  </script>
+  </body>
+</html>

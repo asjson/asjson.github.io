@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>移动端</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边)-下放引入v3.4.1版本 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+      .row1{
+        background: url('./images/di.png') no-repeat center center;
+        width: 100%;
+        height: 220px;
+        background-color: #fff;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        margin: 0 auto;
+      }
+      .row1_1{text-align: center;}
+      .row1_1 img{width: 275px; height: 76px; margin: 70px auto;}
+      .row2{position: relative;}
+      .addon1{padding: 0px 10px 0px 10px;}
+      .addon1 .btn1{ padding: 5px 12px; color: #8e87eb; background: transparent; border-color:#8e87eb;}
+      .row2 .form-inline .form-group{
+        margin-bottom: 0;
+        padding: 10px 0;
+      }
+      .row2 .form-inline{ border: 1px solid #ccc;  margin: 8px auto; border-radius: 5px; }
+      .row2 .form-inline .form-group .input-group{ vertical-align: top; }
+      .row2 .form-inline .form-group .input-group-addon,
+      .row2 .form-inline .form-group .input-group .form-control{
+        border-style: none;
+        background: transparent;
+        outline: none;
+        box-shadow: none;
+      }
+      .row2 .form-inline .form-group .input-group-addon .glyphicon{ font-size: 20px; color:#8e87eb;  }
+      .loginBtn{margin-top: 20px;}
+      .loginBtn .btn{
+        width: 100%;
+        background:#8e87eb;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+        color: #fff;
+      }
+      .passLink{ margin-top: 20px; }
+      .passLink .item{text-align: center;}
+      .passLink .item .a1{color:#8e87eb; text-decoration: underline;}
+    </style>
+  </head>
+  <body>
+    <div class="row1">
+      <div class="row1_1"><img src="images/logo.png" alt=""></div>
+    </div>
+    <div class="row2">
+      <div class="container">
+       <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInput">Amount</label>
+          <div class="input-group">
+            <div class="input-group-addon">
+              <i class="glyphicon glyphicon-phone"></i>
+            </div>
+            <input type="text" class="form-control" id="exampleInput" placeholder="输入手机号">
+            <div class="input-group-addon">
+              <i class="glyphicon glyphicon-remove-circle" onclick="inputClear()"></i>
+            </div>
+          </div>
+        </div>
+      </form>
+      <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInput1">Amount</label>
+          <div class="input-group group_1">
+            <div class="input-group-addon">
+              <i class="glyphicon glyphicon-lock"></i>
+            </div>
+            <input type="text" class="form-control" id="exampleInput1" placeholder="输入验证码">
+            <div class="input-group-addon addon1">
+             <button type="submit" class="btn btn1" onclick="handle()">点击获取</button>
+            </div>
+          </div>
+         <!--  <div class="input-group group_2" style="display: none;">
+            <div class="input-group-addon">
+              <i class="glyphicon glyphicon-lock"></i>
+            </div>
+            <input type="text" class="form-control" id="exampleInput1" placeholder="输入密码">
+            <div class="input-group-addon addon1">
+             <button type="submit" class="btn btn1">点击获取</button>
+            </div>
+          </div> -->
+        </div>
+      </form>
+      <div class="loginBtn">
+        <button type="button" class="btn btn-default" onclick="loginUp()">登录</button>
+      </div>
+      <div class="passLink">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 item">
+            <a class="a1 a1_1" href="####">密码登录</a>
+            <!-- <a style="display: none;" class="a1 a1_2" href="####" onclick="password2()">验证码登录</a> -->
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 item">
+            <a class="a1" href="####">忘记密码</a>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 item">
+            <a class="a1" href="sign.html">注册账号</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function inputClear() {
+      $("#exampleInput").val("");
+    }
+    function loginUp() {
+      window.location.href="home.html";
+    }
+
+    //比较简洁，细节可自行完善
+      var sendData = {
+        "client_id": "1561527878813",
+        "client_secret": "e31ac1bb84934aaa9e46d5daf08301d9",
+        "username": "15201812345"
+      };
+      function handle() {
+      $.ajax({
+        url: "http://192.168.56.100:8888/appauth/login/thirdAuthCode",
+        type: "post",
+        // data: JSON.stringify(sendData),
+        data: sendData,
+        dataType: "json",
+        async: false,
+        contentType: "application/x-www-form-urlencoded",
+        success: function (data) {
+          console.log(data);
+        },
+        error: function (data) {
+        }
+      });
+    }
+  </script>
+  </body>
+</html>
