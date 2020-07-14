@@ -1,0 +1,312 @@
+{
+  "myProps": [
+    {
+      "id": "001",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "002",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "003",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "004",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "005",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "006",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "007",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "008",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "009",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "010",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "011",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "012",
+      "imgSrc": "./static/images/game/p1.png",
+      "txt": "扇子",
+      "times": "×20",
+      "totalValue": "1,758.00"
+    },
+    {
+      "id": "013",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "014",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "015",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "016",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "017",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "018",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "019",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "020",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "021",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "022",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "023",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "024",
+      "imgSrc": "./static/images/game/p2.png",
+      "txt": "贯石斧",
+      "times": "×20",
+      "totalValue": "9,888.00"
+    },
+    {
+      "id": "025",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "026",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "027",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "028",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "029",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "030",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "031",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "032",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "033",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "034",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "035",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "036",
+      "imgSrc": "./static/images/game/p3.png",
+      "txt": "青虹剑",
+      "times": "×20",
+      "totalValue": "9,999.00"
+    },
+    {
+      "id": "037",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    },
+    {
+      "id": "038",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    },
+    {
+      "id": "039",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    },
+    {
+      "id": "040",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    },
+    {
+      "id": "041",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    },
+    {
+      "id": "042",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    },
+    {
+      "id": "043",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    },
+    {
+      "id": "044",
+      "imgSrc": "./static/images/game/p4.png",
+      "txt": "藤甲",
+      "times": "×20",
+      "totalValue": "6,338.00"
+    }
+  ]
+}

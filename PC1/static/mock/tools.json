@@ -1,0 +1,2150 @@
+{
+  "gameProps": [
+    {
+      "id": "001",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "002",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "003",
+      "imgSrc": "./static/images/game/tool3.png",
+      "txt": "剪刀",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "004",
+      "imgSrc": "./static/images/game/tool4.png",
+      "txt": "锤子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "005",
+      "imgSrc": "./static/images/game/tool5.png",
+      "txt": "炸弹",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "006",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "007",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "008",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "009",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "010",
+      "imgSrc": "./static/images/game/tool3.png",
+      "txt": "剪刀",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "011",
+      "imgSrc": "./static/images/game/tool4.png",
+      "txt": "锤子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "012",
+      "imgSrc": "./static/images/game/tool5.png",
+      "txt": "炸弹",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "013",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "014",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "015",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "016",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "017",
+      "imgSrc": "./static/images/game/tool3.png",
+      "txt": "剪刀",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "018",
+      "imgSrc": "./static/images/game/tool4.png",
+      "txt": "锤子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "019",
+      "imgSrc": "./static/images/game/tool5.png",
+      "txt": "炸弹",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "020",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "021",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "022",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "023",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "024",
+      "imgSrc": "./static/images/game/tool3.png",
+      "txt": "剪刀",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "025",
+      "imgSrc": "./static/images/game/tool4.png",
+      "txt": "锤子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "026",
+      "imgSrc": "./static/images/game/tool5.png",
+      "txt": "炸弹",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "027",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "028",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "029",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "030",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "031",
+      "imgSrc": "./static/images/game/tool3.png",
+      "txt": "剪刀",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "032",
+      "imgSrc": "./static/images/game/tool4.png",
+      "txt": "锤子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "033",
+      "imgSrc": "./static/images/game/tool5.png",
+      "txt": "炸弹",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "034",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "035",
+      "imgSrc": "./static/images/game/tool6.png",
+      "txt": "扇子",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "036",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "037",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "038",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "039",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "040",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "041",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "042",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "043",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "044",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "045",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "046",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "047",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "048",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "049",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "050",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "051",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "052",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "053",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "054",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "055",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "056",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "057",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "058",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "059",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "060",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "061",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "062",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "063",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "064",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "065",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "066",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "067",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "068",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "069",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "超级火箭",
+      "goldCoin": "￥4.00"
+    },
+    {
+      "id": "070",
+      "imgSrc": "./static/images/game/tool1.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "071",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "072",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "073",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "074",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "075",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "076",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "077",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "078",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "079",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    },
+    {
+      "id": "080",
+      "imgSrc": "./static/images/game/tool2.png",
+      "txt": "贯石斧",
+      "goldCoin": "￥56.00"
+    }
+  ],
+  "gameDetail": [
+    {
+      "id": "001",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "2200"
+    },
+    {
+      "id": "002",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "火箭",
+      "price": "20",
+      "endNum": "155"
+    },
+    {
+      "id": "003",
+      "picSrc": "./static/images/game/picture3.png",
+      "txt": "剪刀",
+      "price": "30",
+      "endNum": "222"
+    },
+    {
+      "id": "004",
+      "picSrc": "./static/images/game/picture4.png",
+      "txt": "锤子",
+      "price": "40",
+      "endNum": "169"
+    },
+    {
+      "id": "005",
+      "picSrc": "./static/images/game/picture5.png",
+      "txt": "炸弹",
+      "price": "50",
+      "endNum": "324"
+    },
+    {
+      "id": "006",
+      "picSrc": "./static/images/game/picture6.png",
+      "txt": "扇子",
+      "price": "60",
+      "endNum": "378"
+    },
+    {
+      "id": "007",
+      "picSrc": "./static/images/game/picture7.png",
+      "txt": "扇子",
+      "price": "70",
+      "endNum": "690"
+    },
+    {
+      "id": "008",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "56",
+      "endNum": "208"
+    },
+    {
+      "id": "009",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "火箭",
+      "price": "33",
+      "endNum": "641"
+    },
+    {
+      "id": "010",
+      "picSrc": "./static/images/game/picture3.png",
+      "txt": "剪刀",
+      "price": "50",
+      "endNum": "96"
+    },
+    {
+      "id": "011",
+      "picSrc": "./static/images/game/picture4.png",
+      "txt": "锤子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "012",
+      "picSrc": "./static/images/game/picture5.png",
+      "txt": "炸弹",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "013",
+      "picSrc": "./static/images/game/picture6.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "014",
+      "picSrc": "./static/images/game/picture7.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "015",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "016",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "017",
+      "picSrc": "./static/images/game/picture3.png",
+      "txt": "剪刀",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "018",
+      "picSrc": "./static/images/game/picture4.png",
+      "txt": "锤子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "019",
+      "picSrc": "./static/images/game/picture5.png",
+      "txt": "炸弹",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "020",
+      "picSrc": "./static/images/game/picture6.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "021",
+      "picSrc": "./static/images/game/picture7.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "022",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "023",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "024",
+      "picSrc": "./static/images/game/picture3.png",
+      "txt": "剪刀",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "025",
+      "picSrc": "./static/images/game/picture4.png",
+      "txt": "锤子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "026",
+      "picSrc": "./static/images/game/picture5.png",
+      "txt": "炸弹",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "027",
+      "picSrc": "./static/images/game/picture6.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "028",
+      "picSrc": "./static/images/game/picture7.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "029",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "030",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "031",
+      "picSrc": "./static/images/game/picture3.png",
+      "txt": "剪刀",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "032",
+      "picSrc": "./static/images/game/picture4.png",
+      "txt": "锤子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "033",
+      "picSrc": "./static/images/game/picture5.png",
+      "txt": "炸弹",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "034",
+      "picSrc": "./static/images/game/picture6.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "035",
+      "picSrc": "./static/images/game/picture7.png",
+      "txt": "扇子",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "036",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "037",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "038",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "039",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "040",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "041",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "042",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "043",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "044",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "045",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "046",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "047",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "048",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "049",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "050",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "051",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "052",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "053",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "054",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "055",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "056",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "057",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "058",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "059",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "060",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "061",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "062",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "063",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "064",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "065",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "066",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "067",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "068",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "069",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "超级火箭",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "070",
+      "picSrc": "./static/images/game/picture1.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "071",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "072",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "073",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "074",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "075",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "076",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "077",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "078",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "079",
+      "picSrc": "./static/images/game/picture2.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    },
+    {
+      "id": "080",
+      "picSrc": "./static/images/game/picture7.png",
+      "txt": "贯石斧",
+      "price": "10",
+      "endNum": "3366"
+    }
+  ],
+  "gameHero": [
+    {
+      "id": "001",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "002",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "003",
+      "picSrc": "./static/images/hero/k3.png",
+      "hero": "郭嘉",
+      "endMony": "102000"
+    },
+    {
+      "id": "004",
+      "picSrc": "./static/images/hero/k4.png",
+      "hero": "刘备",
+      "endMony": "102000"
+    },
+    {
+      "id": "005",
+      "picSrc": "./static/images/hero/k5.png",
+      "hero": "关羽",
+      "endMony": "102000"
+    },
+    {
+      "id": "006",
+      "picSrc": "./static/images/hero/k6.png",
+      "hero": "SR张飞",
+      "endMony": "102000"
+    },
+    {
+      "id": "007",
+      "picSrc": "./static/images/hero/k7.png",
+      "hero": "赵云",
+      "endMony": "102000"
+    },
+    {
+      "id": "008",
+      "picSrc": "./static/images/hero/k8.png",
+      "hero": "马超",
+      "endMony": "102000"
+    },
+    {
+      "id": "009",
+      "picSrc": "./static/images/hero/k9.png",
+      "hero": "魏延",
+      "endMony": "102000"
+    },
+    {
+      "id": "010",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "神吕布",
+      "endMony": "102000"
+    },
+    {
+      "id": "011",
+      "picSrc": "./static/images/hero/k11.png",
+      "hero": "张飞",
+      "endMony": "102000"
+    },
+    {
+      "id": "012",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "SR许褚",
+      "endMony": "102000"
+    },
+    {
+      "id": "013",
+      "picSrc": "./static/images/hero/k13.png",
+      "hero": "孟获",
+      "endMony": "102000"
+    },
+    {
+      "id": "014",
+      "picSrc": "./static/images/hero/k14.png",
+      "hero": "SR大乔",
+      "endMony": "102000"
+    },
+    {
+      "id": "015",
+      "picSrc": "./static/images/hero/k15.png",
+      "hero": "SR黄月英",
+      "endMony": "102000"
+    },
+    {
+      "id": "016",
+      "picSrc": "./static/images/hero/k16.png",
+      "hero": "SK典韦",
+      "endMony": "102000"
+    },
+    {
+      "id": "017",
+      "picSrc": "./static/images/hero/k17.png",
+      "hero": "荀彧",
+      "endMony": "102000"
+    },
+    {
+      "id": "018",
+      "picSrc": "./static/images/hero/k18.png",
+      "hero": "神张角",
+      "endMony": "102000"
+    },
+    {
+      "id": "019",
+      "picSrc": "./static/images/hero/k19.png",
+      "hero": "张春华",
+      "endMony": "102000"
+    },
+    {
+      "id": "020",
+      "picSrc": "./static/images/hero/k20.png",
+      "hero": "神吕蒙",
+      "endMony": "102000"
+    },
+    {
+      "id": "021",
+      "picSrc": "./static/images/hero/k21.png",
+      "hero": "孙坚",
+      "endMony": "102000"
+    },
+    {
+      "id": "022",
+      "picSrc": "./static/images/hero/k22.png",
+      "hero": "夏侯渊",
+      "endMony": "102000"
+    },
+    {
+      "id": "023",
+      "picSrc": "./static/images/hero/k23.png",
+      "hero": "甘宁",
+      "endMony": "102000"
+    },
+    {
+      "id": "024",
+      "picSrc": "./static/images/hero/k24.png",
+      "hero": "SR华佗",
+      "endMony": "102000"
+    },
+    {
+      "id": "025",
+      "picSrc": "./static/images/hero/k25.png",
+      "hero": "SK庞德",
+      "endMony": "102000"
+    },
+    {
+      "id": "026",
+      "picSrc": "./static/images/hero/k26.png",
+      "hero": "甄姬",
+      "endMony": "102000"
+    },
+    {
+      "id": "027",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "028",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "029",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "030",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "031",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "032",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "033",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "034",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "035",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "036",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "037",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "038",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "039",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "040",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "041",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "endMony": "100000"
+    },
+    {
+      "id": "042",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "043",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "044",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "045",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "046",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "047",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "048",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "049",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    },
+    {
+      "id": "050",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "endMony": "108660"
+    }
+  ],
+  "HeroDetail": [
+    {
+      "id": "001",
+      "picSrc": "./static/images/hero/k1.png",
+      "hero": "诸葛亮",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "诸葛亮（181年—234年10月8日），字孔明，号卧龙，琅琊阳都（今山东沂南）人，三国时期蜀汉丞相，杰出的政治家、军事家、文学家、书法家、发明家。"
+    },
+    {
+      "id": "002",
+      "picSrc": "./static/images/hero/k2.png",
+      "hero": "司马懿",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "司马懿（179年—251年9月7日），字仲达，河内郡温县孝敬里（今河南省焦作市温县）人。三国时期曹魏政治家、军事谋略家、权臣，西晋王朝的奠基人之一。"
+    },
+    {
+      "id": "003",
+      "picSrc": "./static/images/hero/k3.png",
+      "hero": "郭嘉",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "郭嘉（170年－207年），字奉孝，颍川阳翟（今河南禹州）人。东汉末年曹操帐下著名谋士。郭嘉原为袁绍部下，后转投曹操，为曹操统一中国北方立下了功勋，官至军师祭酒，封洧阳亭侯。在曹操征伐乌丸时病逝，年仅三十八岁。谥曰贞侯。"
+    },
+    {
+      "id": "004",
+      "picSrc": "./static/images/hero/k4.png",
+      "hero": "刘备",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "刘备（161年－223年6月10日），既汉昭烈帝（221年—223年在位），字玄德，涿郡涿县（今河北涿州）人，西汉中山靖王刘胜之后，蜀汉开国皇帝、政治家。史家多称其为先主。"
+    },
+    {
+      "id": "005",
+      "picSrc": "./static/images/hero/k5.png",
+      "hero": "关羽",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "关羽（？—220年），本字长生，后改字云长，河东郡解县（今山西运城）人，雅号“美髯公”。早年跟随刘备颠沛流离，辗转各地，和刘备、张飞情同兄弟，因而虽然受到了曹操的厚待，但关羽仍然借机离开曹操，去追随刘备。"
+    },
+    {
+      "id": "006",
+      "picSrc": "./static/images/hero/k6.png",
+      "hero": "张飞",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "张飞（？—221年），字益德（《华阳国志》作翼德），涿郡（今河北涿州）人，三国时期蜀汉名将。张飞勇武过人，与结拜兄弟关羽并称为“万人敌”。"
+    },
+    {
+      "id": "007",
+      "picSrc": "./static/images/hero/k7.png",
+      "hero": "赵云",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "赵云（？—229年），字子龙，常山郡真定县（今河北正定）人。身长八尺，姿颜雄伟，三国时期蜀汉名将。汉末军阀混战，赵云受本郡推举，率领义从加入白马将军公孙瓒。"
+    },
+    {
+      "id": "008",
+      "picSrc": "./static/images/hero/k8.png",
+      "hero": "马超",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "马超（176年－222年），字孟起，扶风茂陵人（今陕西兴平），汉伏波将军马援的后人，马腾的儿子，少年成名，曹操曾多次征召马超入京为官，但都被马超拒绝。而后马腾入京被封为卫尉，马超就统领了马腾的部队。"
+    },
+    {
+      "id": "009",
+      "picSrc": "./static/images/hero/k9.png",
+      "hero": "魏延",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "魏延（？－234年），字文长，义阳平氏（今河南桐柏县）人。三国时期蜀汉将领，深受刘备器重。刘备入川时，魏延因数有战功，升为牙门将军。"
+    },
+    {
+      "id": "010",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "011",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "012",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "013",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "014",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "015",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "016",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "017",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "018",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "019",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "020",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "021",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "022",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "023",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "024",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "025",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "026",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "027",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "028",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "029",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "030",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "031",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "032",
+      "picSrc": "./static/images/hero/k10.png",
+      "hero": "吕布",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "吕布（？－199年2月7日），字奉先，五原郡九原县（今内蒙古九原）人。东汉末年名将，汉末群雄之一。原为丁原部将，被唆使杀害丁原归附董卓，与董卓誓为父子，后又被司徒王允唆使诛杀董卓。"
+    },
+    {
+      "id": "033",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "034",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "035",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "036",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "037",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "038",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "039",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "040",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "041",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "042",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "043",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "044",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "045",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "046",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "047",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "048",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "049",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    },
+    {
+      "id": "050",
+      "picSrc": "./static/images/hero/k12.png",
+      "hero": "许褚",
+      "Circulation": "1000000000",
+      "surplus": "123000",
+      "source": "掉落/十连抽",
+      "life": "1400",
+      "attack": "120",
+      "Hit1": "100%",
+      "dodge": "5%",
+      "Hit2": "100%",
+      "CriMultiple": "100%",
+      "Hit3": "100%",
+      "descr": "许褚（chǔ，见《辞海》）字仲康，谯国谯人（今安徽亳州市古城镇）。长八尺馀，腰大十围，容貌雄毅，勇力绝人。年轻时在家乡聚集了数千户人家，共同抵御贼寇。"
+    }
+  ]
+}
