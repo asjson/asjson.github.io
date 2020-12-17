@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>用户中心</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边)-下放引入v3.4.1版本 -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/base/event/eventdispatcher.js"></script>
+    <script src="js/base/bridge/bridge.js"></script>
+    <style>
+     .bgPic{
+        position: absolute;
+        background: url('./images/bj2.jpg') no-repeat center center;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+      }
+      a{ text-decoration: none; color: #fff; }
+     .header{}
+     .header .row_top{ height: 48px; line-height: 48px; color: #fff; font-size: 16px; }
+     .header .row_top .tip{ text-align: center; font-weight: 700; }
+     .header .row_top .links{ color: #fff; text-decoration: none; }
+     .header .row_top .ico1{ width: 30px; height: 28px; }
+     .content{ width: 100%; height: 260px; background-size: 100% 100%; }
+     .content .avatar{ width: 80%; height: 130px; margin: 65px auto;}
+     .content .avatar .avatar_1,
+     .content .avatar .avatar_2{ text-align: center; }
+     .content .avatar .avatar_2 p{
+       font-size: 16px;
+       height: 28px;
+       line-height: 28px;
+       font-weight: bold;
+       color: #fff;
+       margin: 15px 0;
+     }
+     .content .avatar .avatar_1 img{ width: 72px; height: 72px; border-radius: 50%; }
+     .footer_child .child1,
+     .footer_child .child2,
+     .footer_child .child3{
+       height: 65px;
+       line-height: 65px;
+       font-size: 16px;
+       font-weight: bold;
+       background: #1a202e;
+       margin-bottom: 15px;
+     }
+     .footer_child .child3{
+       background: #0178ff;
+     }
+     .footer_child .child1 a,
+     .footer_child .child2 a{
+       display:inline-block;
+       text-decoration: none;
+       color: #fff;
+       padding-left: 20px;
+       width: 100%;
+      }
+     .footer_child .child1 .go,
+     .footer_child .child2 .go{
+       width: 8px;
+       height: 14px;
+       float: right;
+       margin-top:25px;
+       margin-right:20px;
+       vertical-align: middle;
+      }
+     .footer_child .pic{ width: 20px; height: 20px; margin-right: 10px; margin-top:23px; float: left; }
+     .footer_child .span1{float: left;}
+     .footer_child .pic3{ width: 14px; height: 14px; margin-right: 10px; }
+     .footer_child .child3{ margin: 20px 20px; text-align: center; border-style: none; border-radius:5px;}
+     .footer_child .child3 a{ text-decoration: none; color: #fff;}
+    </style>
+  </head>
+  <body>
+ <div class="bgPic">   
+    <div class="header">
+       <div class="container">
+          <div class="row row_top">
+            <div class="col-xs-4 col-sm-4 col-md-4">
+              <a href="home.html" class="links">
+                <img src="images/fanhui.png" class="ico1">
+              </a>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 tip">
+              用户中心
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4">&nbsp;</div>
+          </div>
+       </div>
+    </div>
+    <div class="content">
+       <div class="container">
+         <div class="avatar">
+           <div class="avatar_1 photo">
+            <!--<img src="images/linshi1.png" class="ImgSrc">-->
+            <img class="ImgSrc">
+           </div>
+           <div class="avatar_2 up">
+             <!--<p class="oText">sms_2960951691355635</p>-->
+             <p class="oText"></p>
+           </div>
+         </div>
+       </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer_child">
+           <div class="child1">
+            <a href="myInfo.html">
+              <img src="images/wodeziliao.png" class="pic">
+              <span class="span1">我的资料</span>
+              <img src="images/go.png" class="go">
+             </a>
+           </div>
+           <div class="child2">
+            <a href="security.html">
+              <img src="images/zhanghaoanquan.png" class="pic">
+              <span class="span1">账户安全</span>
+              <img src="images/go.png" class="go">
+            </a>
+           </div>
+           <div class="child3">
+             <!--<img src="images/tuichu.png" class="pic3">-->
+             <a href="login.html">退出登录</a>
+           </div>
+        </div>
+      </div>
+    </div>
+ </div>
+  <script src="js/common.js"></script>
+  <script src="js/pages/home/index.js"></script>
+  <script src="js/pages/user/index.js"></script> 
+  </body>
+</html>

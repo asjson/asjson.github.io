@@ -1,0 +1,25 @@
+      .bgPic{
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+      }
+     .header{ background: #121622;  position: fixed; z-index: 1; width: 100%;}
+     .header .row_top{ height: 48px; line-height: 48px; color: #fff; font-size: 16px; }
+     .header .row_top .ico1{ width: 30px; height: 28px; }
+     .header .row_top .tip{ text-align: center; font-weight: 700; }
+     .header .row_top .links{ color: #fff; text-decoration: none; }
+
+     .content{ position: relative; top: 50px; }
+     .content .input3, .content .input4{ height: 34px; line-height: 34px; text-align: center; color:#666;}
+     .content .wrapper{ margin: 0 auto 15px; height: 100px; width: 100%; }
+     .content .wrapper .wrapper_box{ margin: 0 auto;/*  border: 1px solid red; */ }
+     .content .wrapper .wrap1{ width: 100%; margin: 10px auto;  height: 35px; text-align: center;}
+     .content .wrapper .div1{padding-left: 0; padding-right: 0;}
+     .content .wrapper .div2{padding-left: 0; padding-right: 0;}
+     .main {width: 100%;margin: 0 auto;display: block;}
+     .main .title1{margin:15px auto;}
+     .row1{ height: 136px;  }

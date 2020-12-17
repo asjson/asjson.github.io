@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>移动端</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="css/global.css"> -->
+    <link rel="stylesheet" href="css/loading.css">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery(Bootstrap 的所有JavaScript插件都依赖jQuery所以必须放在前边) -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/base/event/eventdispatcher.js"></script>
+    <script src="js/base/bridge/bridge.js"></script>
+    <style>
+      .bgImg{
+        position: absolute;
+        background: url('./images/bj.jpg') no-repeat center center;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+      }
+      .row1{
+        width: 100%;
+        height: 220px;
+        line-height: 220px;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        margin: 0 auto;
+      }
+      .row1_1{text-align: center;}
+      .row1_1 img{width: 127px; height: 57px;}
+      .row2{
+        margin: 8px auto;
+        position: relative;
+        margin-top: 0px;
+      }
+      .row2 .container{padding-right: 25px; padding-left: 25px;}
+      .row2 .form-group{
+        margin: 10px 0;
+        border-bottom: 1px solid #fff;
+      }
+      .addon1{padding: 6px 0;}
+      .addon2{padding: 6px 0;}
+      .addon3{padding: 0px;}
+      .addon3 .btn1{
+        padding: 5px 0px;
+        color: #3dd4ff;
+        background: transparent;
+        border-style:none;
+        outline: none;
+      }
+      .row2 .form-group .input-group .cont1{ padding: 6px 20px; }
+      .row2 .form-group .input-group,
+      .row2 .form-group .input-group .form-control{
+        vertical-align: top;
+        height: 55px;
+        color: #fff;
+      }
+      .row2 .form-group .input-group-addon,
+      .row2 .form-group .input-group .form-control{
+        border-style: none;
+        background: transparent;
+        outline: none;
+        box-shadow: none;
+      }
+      .row2 .form-group .input-group-addon .icon1{width: 20px; height: 25px;}
+      .row2 .form-group .input-group-addon .shanchu{width: 20px; height: 20px;}
+      .loginBtn{margin: 50px 0 30px;}
+      .loginBtn .btn{
+        width: 100%;
+        background:#0178ff;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+        color: #fff;
+        border-style: none;
+        outline: none;
+      }
+      .passLink{ margin-top: 20px; }
+      .passLink .item{text-align: center;}
+      .passLink .item .a1{color:#fff;}
+    </style>
+  </head>
+  <body>
+    <div class="bgImg">
+      <div class="row1">
+        <div class="row1_1">
+          <img src="images/logo.png" alt="">
+        </div>
+      </div>
+      <div class="row2">
+        <div class="container content">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInput">Amount</label>
+            <div class="input-group">
+              <div class="input-group-addon addon1">
+                <img src="images/shouji.png" class="icon1">
+              </div>
+              <input type="text" class="form-control cont1" id="exampleInput" placeholder="请输入手机号">
+              <div class="input-group-addon addon2">
+                <img class="shanchu" src="images/shanchu.png" onclick="inputClear()">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInput1">Amount</label>
+            <div class="input-group group_1">
+              <div class="input-group-addon addon1">
+                <img src="images/yanzhengma.png" class="icon1">
+              </div>
+              <input type="text" class="form-control cont1" id="exampleInput1" placeholder="请输入验证码">
+              <div class="input-group-addon addon3">
+               <button class="btn btn1" onclick="getVCode()">获取验证码</button>
+              </div>
+            </div>
+          </div>
+        <div class="loginBtn">
+          <button type="button" class="btn btn-default" onclick="loginUp()">登录</button>
+        </div>
+        <div class="passLink">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 item">
+              <a class="a1 a1_1" href="####">密码登录</a>
+              <!-- <a style="display: none;" class="a1 a1_2" href="####" onclick="password2()">验证码登录</a> -->
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 item">
+              <a class="a1" href="####">忘记密码</a>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 item">
+              <a class="a1" href="sign.html">注册账号</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/loading.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/pages/login/index.js"></script>
+  </body>
+</html>

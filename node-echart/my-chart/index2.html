@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>水波图1</title>
+  <!-- <script src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script> -->
+  <!-- <script src="http://echarts.baidu.com/build/dist/echarts.js"></script> -->
+  <!-- <script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script> -->
+  <!-- <script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script> -->
+  <!-- <script type="text/javascript" src="js/echarts.min.js"></script> -->
+  <script src="js/plug/echarts.js"></script>
+  <script src="js/plug/echarts-liquidfill.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <div id="main" style="width:500px;height:500px"></div>
+  <script>
+    // var myChart = echarts.init(document.getElementById('main'));
+    // var option = {
+    var bgColor = '#E3F7FF';
+    var options = [{
+      backgroundColor: '#050038',
+      title: {
+          text: '',
+          textStyle: {
+              fontWeight: 'normal',
+              fontSize: 25,
+              color: 'rgb(97, 142, 205)'
+          }
+      },
+      series: [{
+              type: 'liquidFill',
+              radius: '45%',
+              center: ['50%', '50%'],
+              data: [0.5, 0.5, 0.5], // data个数代表波浪数
+              backgroundStyle: {
+                  borderWidth: 1,
+                  color: 'rgb(255,0,255,0.1)'
+              },
+              label: {
+                  normal: {
+                      formatter: (0.5 * 100).toFixed(2) + '%',
+                      textStyle: {
+                          fontSize: 50
+                      }
+                  }
+              },
+              outline: {
+                  show: false,
+              }
+          },
+          {
+              "type": "pie",
+              "center": ["50%", "50%"],
+              "radius": ["50%", "52%"],
+              "hoverAnimation": false,
+              "data": [{
+                      "name": "",
+                      "value": 500,
+                      labelLine: {
+                          show: false
+                      },
+                      itemStyle: {
+                          color: '#5886f0'
+                      },
+                      emphasis: {
+                          labelLine: {
+                              show: false
+                          },
+                          itemStyle: {
+                              color: '#5886f0'
+                          },
+                      }
+                  },
+                  { //画中间的图标
+                      "name": "",
+                      "value": 4,
+                      labelLine: {
+                          show: false
+                      },
+                      itemStyle: {
+                          color: '#ffffff',
+                          "normal": {
+                              "color": "#5886f0",
+                              "borderColor": "#5886f0",
+                              "borderWidth": 20,
+                              // borderRadius: '100%'
+                          },
+                      },
+                      label: {
+
+                          borderRadius: '100%'
+                      },
+                      emphasis: {
+                          labelLine: {
+                              show: false
+                          },
+                          itemStyle: {
+                              color: '#5886f0'
+                          },
+                      }
+
+                  },
+                  { // 解决圆点过大后续部分显示明显的问题
+                      "name": "",
+                      "value": 4,
+                      labelLine: {
+                          show: false
+                      },
+                      itemStyle: {
+                          color: '#5886f0'
+                      },
+                      emphasis: {
+                          labelLine: {
+                              show: false
+                          },
+                          itemStyle: {
+                              color: '#5886f0'
+                          },
+                      }
+                  },
+                  { //画剩余的刻度圆环
+                      "name": "",
+                      "value": 88,
+                      itemStyle: {
+                          color: '#050038'
+                      },
+                      "label": {
+                          show: false
+                      },
+                      labelLine: {
+                          show: false
+                      },
+                      emphasis: {
+                          labelLine: {
+                              show: false
+                          },
+                          itemStyle: {
+                              color: 'rgba(255,255,255,0)'
+                          },
+                      }
+                  }
+              ]
+          }
+
+      ]
+    }];
+    // 使用刚指定的配置项和数据显示图表。
+    // myChart.setOption(option);
+    var charts = [];
+    for (var i = 0; i < options.length; ++i) {
+        // var chart = echarts.init(containers[i]);
+        var myChart = echarts.init(document.getElementById('main'));
+        if (i > 0) {
+            options[i].series[0].silent = true;
+        }
+        myChart.setOption(options[i]);
+        myChart.setOption({
+            baseOption: options[i],
+            media: [{
+                query: {
+                    maxWidth: 300
+                },
+                option: {
+                    series: [{
+                        label: {
+                            fontSize: 26
+                        }
+                    }]
+                }
+            }]
+        });
+
+        charts.push(myChart);
+    }
+    window.onresize = function () {
+      for (var i = 0; i < charts.length; ++i) {
+          charts[i].resize();
+      }
+    };
+  </script>
+</body>
+</html>

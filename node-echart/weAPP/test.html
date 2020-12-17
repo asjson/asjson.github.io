@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>测试页面</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/identity.css" rel="stylesheet">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- http://192.168.1.115:3000/index.html -->
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <!-- <script>
+      var obj = { name:'Jim' };
+      var str = JSON.stringify(obj);
+      console.log(str);
+      // 存入
+      sessionStorage.obj = str;
+      // 读取
+      str = sessionStorage.obj;
+      // 重新转换为对象
+      obj = JSON.parse(str);
+    </script> -->
+    <script>
+      if(!window.localStorage){
+          alert("浏览器支持localstorage");
+      } else{
+          //主逻辑业务
+          var storage=window.localStorage;
+          //写入a字段
+          storage["a"]=1;
+          
+          //写入c字段
+          storage.setItem("c",3);
+          console.log(typeof storage["a"]);
+          console.log(typeof storage["c"]);
+          //第一种方法读取
+          var a=storage.a;
+          console.log(a);
+
+          //第三种方法读取
+          var c=storage.getItem("c");
+          console.log(c);
+      }
+    </script>
+  </body>
+</html>

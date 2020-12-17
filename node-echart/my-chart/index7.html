@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>水波图2</title>
+  <!-- <script src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script> -->
+  <!-- <script src="http://echarts.baidu.com/build/dist/echarts.js"></script> -->
+  <!-- <script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script> -->
+  <!-- <script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script> -->
+  <!-- <script type="text/javascript" src="js/echarts.min.js"></script> -->
+  <script src="js/plug/echarts.js"></script>
+  <script src="js/plug/echarts-liquidfill.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <div id="main" style="width:800px;height:500px"></div>
+  <script>
+    var value = 0.2;
+    var data = [value, value, value, ];
+    var options = {
+       backgroundColor: new echarts.graphic.RadialGradient(0.3, 0.3, 0.8, [{
+          offset: 0,
+          color: '#431ab8'
+      }, {
+          offset: 1,
+          color: '#471bba'
+      }]),
+       title: {
+           text: (value * 100).toFixed(0) + '{a|%}',
+           textStyle: {
+               fontSize: 50,
+               fontFamily: 'Microsoft Yahei',
+               fontWeight: 'normal',
+               color: '#bcb8fb',
+               rich: {
+                   a: {
+                       fontSize: 28,
+                   }
+               }
+           },
+           x: 'center',
+           y: '35%'
+       },
+       graphic: [{
+           type: 'group',
+           left: 'center',
+           top: '60%',
+           children: [{
+               type: 'text',
+               z: 100,
+               left: '10',
+               top: 'middle',
+               style: {
+                   fill: '#aab2fa',
+                   text: '流量统计',
+                   font: '20px Microsoft YaHei'
+               }
+           }]
+       }],
+       series: [{
+           type: 'liquidFill',
+           radius: '80%',
+           center: ['50%', '50%'],
+           //  shape: 'roundRect',
+           data: data,
+           backgroundStyle: {
+               color: {
+                   type: 'linear',
+                   x: 1,
+                   y: 0,
+                   x2: 0.5,
+                   y2: 1,
+                   colorStops: [{
+                       offset: 1,
+                       color: 'rgba(68, 145, 253, 0)'
+                   }, {
+                       offset: 0.5,
+                       color: 'rgba(68, 145, 253, .25)'
+                   }, {
+                       offset: 0,
+                       color: 'rgba(68, 145, 253, 1)'
+                   }],
+                   globalCoord: false
+               },
+           },
+           outline: {
+               borderDistance: 0,
+               itemStyle: {
+                   borderWidth: 20,
+                   borderColor: {
+                       type: 'linear',
+                       x: 0,
+                       y: 0,
+                       x2: 0,
+                       y2: 1,
+                       colorStops: [{
+                           offset: 0,
+                           color: 'rgba(69, 73, 240, 0)'
+                       }, {
+                           offset: 0.5,
+                           color: 'rgba(69, 73, 240, .25)'
+                       }, {
+                           offset: 1,
+                           color: 'rgba(69, 73, 240, 1)'
+                       }],
+                       globalCoord: false
+                   },
+                   shadowBlur: 10,
+                   shadowColor: '#000',
+               }
+           },
+           itemStyle:{
+              color: {
+                 type: 'linear',
+                 x: 0,
+                 y: 0,
+                 x2: 0,
+                 y2: 1,
+                 colorStops: [{
+                     offset: 1,
+                     color: 'rgba(58, 71, 212, 0)'
+                 }, {
+                     offset: 0.5,
+                     color: 'rgba(31, 222, 225, .2)'
+                 }, {
+                     offset: 0,
+                     color: 'rgba(31, 222, 225, 1)'
+                 }],
+                 globalCoord: false
+              },
+            },
+           label: {
+               normal: {
+                   formatter: '',
+               }
+           }
+       }, ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    // myChart.setOption(option);
+    var myChart = echarts.init(document.getElementById('main'));
+    myChart.setOption(options);
+    window.onresize = function () {
+      myChart.resize();
+    };
+  </script>
+</body>
+</html>
